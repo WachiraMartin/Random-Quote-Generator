@@ -1,0 +1,45 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(orangered, lime, yellow);
+}
+.container{
+  background-color: whitesmoke;
+  width: 13cm;
+  height: 8.5cm;
+}
+.heading{
+  background-color: black;
+  color: whitesmoke;
+  padding-left: 50px;
+  height: 1cm;
+  padding-top: 8px;
+  text-decoration: underline;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+}
+.pressbtn{
+  margin-left: 90px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 4px blue;
+  background-color: lawngreen;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 500;
+}
+blockquote{
+  border-left: 2px solid rgb(204, 0, 255);
+  border-right: 2px solid rgb(204, 0, 255);
+  cursor: all-scroll;
+}
+.quoteblock{
+  margin-left: 0px;
+  padding: 0.5em;
+}
+.quoteauthor{
+  margin-left: 90px;
+
+}
